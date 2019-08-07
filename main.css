@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header p,
+section p,
+main p,
+section button {
+  margin: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+header,
+#getQuestion {
+  margin-top: 5%;
+}
+
+#date,
+main {
+  margin-top: 1%;
+}
+
+main p:nth-child(1),
+main p:nth-child(2),
+main p:nth-child(3),
+main p:nth-child(4),
+main p:nth-child(5) {
+  margin-bottom: 1%;
+}
+
+main p:nth-child(2),
+main p:nth-child(3),
+main p:nth-child(4),
+main p:nth-child(5) {
+  text-indent: 50px;
+}
